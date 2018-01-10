@@ -1,0 +1,63 @@
+/* Universal Styles */
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.4;
+}
+
+img {
+  width: 100%;
+}
+
+/* Bootstrap Overrides */
+
+/* Format Anchor Tags In Nav */
+.navbar a {
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Over Ride Active Sylying */
+.navbar-default .navbar-nav > .active > a {
+  color: #399bd1;
+  background-color: inherit;
+}
+
+/* Over Ride Active Hover Styling */
+.navbar-default .navbar-nav > .active > a:hover {
+  color: #399bd1;
+  background-color: inherit;
+}
+
+/* Add Jumbotron Background Image */
+.jumbotron {
+  background-image: url('../images/jumbotron-bike.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 11.8rem 0;
+  color: white;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.jumbotron h1 {
+  font-family: "Monoton", sans-serif;
+  font-size: 7.1rem;
+}
+
+.jumbotron p {
+  max-width: 51.3rem;
+  margin: auto;
+}
+
+/* Featured Project Section */
+
+.image-container {
+  opacity: 0.7;
+}
