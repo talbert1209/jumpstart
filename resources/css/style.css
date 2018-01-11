@@ -41,11 +41,11 @@ img {
 
 /* Add Jumbotron Background Image */
 .jumbotron {
-  background-image: url('../images/jumbotron-bike.jpg');
+  height: 44rem;
+  padding-top: 10rem;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 11.8rem 0;
   color: white;
   text-align: center;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -83,6 +83,13 @@ img {
   margin: auto;
 }
 
+.relative-wraper {
+  position: relative;
+  text-align: center;
+  top: -16rem;
+  width: 100%;
+}
+
 /* Jumbotron Button Styling */
 .btn-primary {
   width: 11.4rem;
@@ -103,6 +110,10 @@ img {
 }
 
 /* Featured Project Section */
+
+.featured-project {
+  margin-top: -7.5rem;
+}
 
 /* Format image containers */
 .image-container {
